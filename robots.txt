@@ -1,0 +1,3 @@
+# 预览站：正式域名 fmuserhoteliptvsolution.com 上线前不索引
+User-agent: *
+Disallow: /

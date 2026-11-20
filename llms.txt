@@ -1,0 +1,73 @@
+# FMUSER 酒店IPTV系统 —— 前端设备、方案与项目实录
+
+> 广州市汉婷信息科技有限公司（FMUSER INTERNATIONAL GROUP INC.）提供酒店IPTV系统的前端设备与客房端：卫星/有线接收机、HDMI 编码器、IP 网关、IPTV 服务器、客房机顶盒与卫星天线。系统跑在酒店自有局域网内，不依赖公网，按一次性买断报价。客户为海外酒店、医院、养老院、公寓业主与系统集成商。项目经验：18 年、30 多个国家、1,000 多家酒店。
+
+站点语言：简体中文。联系方式：sales@fmuserhoteliptvsolution.com / +86 139 2270 2227 / 周一至周六 9:00–18:00（GMT+8）。价格、交期与配置随报价单确认，本站不公开价目。
+
+## 主要栏目
+- [电视机厂合作](https://fmuserhoteliptvsolution.com/partner/tv/)：我们做你背后的 IPTV 线，帮谈单不抢客户
+
+- [系统方案](https://fmuserhoteliptvsolution.com/system/plan/)：30 / 100 / 200 间客房的配置思路
+- [系统图与三层架构](https://fmuserhoteliptvsolution.com/system/diagram/)：信号源 → 前端机房 → 客房
+- [100 间客房设备清单](https://fmuserhoteliptvsolution.com/system/bom/)：BOM 明细
+- [产品中心](https://fmuserhoteliptvsolution.com/products/)：七类设备，型号与参数
+- [酒店弱电系统](https://fmuserhoteliptvsolution.com/integration/)：电视、客控、门锁、PMS、WiFi、IP 电话、CCTV
+- [酒店专用电视](https://fmuserhoteliptvsolution.com/integration/display/)：与 IPTV 的配合方式
+- [海外项目](https://fmuserhoteliptvsolution.com/projects/)：已交付的国家与业态
+- [关于我们](https://fmuserhoteliptvsolution.com/about/)：工厂、认证、团队与售后
+- [资料下载](https://fmuserhoteliptvsolution.com/resources/)：全型号数据表 PDF
+- [联系我们](https://fmuserhoteliptvsolution.com/quote/)：电话、WhatsApp、邮箱
+
+## 产品型号（按类别）
+
+### IPTV 服务器 / 网关
+
+- FBE700 Magic IPTV 服务器（1U / 3 卡）：1U 模块化机箱，最多插 3 块功能卡（HDMI 编码卡、卫星/有线解调卡），把编码、解调、IP 网关和 IPTV 业务服务器做在一台设备里。适合 100 间上下的酒店：一台机器搞定机房。
+- FBE900 Magic IPTV 服务器（3U / 6 卡）：FBE700 的扩容版本：3U 机箱、6 个插槽、双 SFP+ 上联，适合 200 间以上客房或需要多路卫星、多路编码一起进场的项目。
+- FBE803 Magic IPTV 服务器（一体机）：不带扩展槽的一体机：IP 网关 + IPTV 服务器 + 本地存储，一台设备即可组网。适合节目源已经在 IP 上的项目（运营商 IPTV、光猫输出、其他机房转来的流）。
+- FBE801 / FBE802 Magic IPTV 服务器：与 FBE803 同架构的一体机，差异主要在机械硬盘：FBE801 的 4T 为选配，FBE802 的 4T 为标准配置。选型时按片库需求定，其余参数一致。
+
+### 卫星与地面接收（信号转 IP）
+
+- FBE308 卫星接收机（8 路 DVB-S/S2/S2X → IP）：8 路免费卫星节目进，IP 流出去：支持 2 路 MPTS 或 256 路 SPTS，带 BISS 解扰、PID 过滤与重映射，1U 机箱，Web 管理。
+- FBE316 卫星接收机（16 路 → IP）：FBE308 的双倍路数版本，16 路卫星输入，输出结构与管理方式相同。适合需要接收多颗星、节目路数较多的项目。
+- FBE324 卫星接收机（24 路 → IP）：三块解调卡、24 路卫星输入，是 FTA 接收机里路数最多的型号，适合大型酒店或整栋楼的集中前端。
+- FBE308U 地面/有线/卫星多模接收机：一块卡 8 路，机箱可选 1/2/3 块卡，即 8/16/24 路输入；DVB-S/S2/S2X 与 DVB-C/T/T2/ISDB-T 可混插。直通模式出 8 路 MPTS，复用模式出 2 路 MPTS 或 512 路 SPTS。
+- FBE302 双 CAM 卫星接收机（加密节目）：要收付费加密频道，就要有 CAM/CI 槽。FBE302 每个解调模块带 2 个 CAM/CI，可以插入运营商或节目商的 CAM 卡解出节目，再转成 IP。
+- FBE304 多通道 CI 接收机：模块可选 2 路或 4 路解调，制式在 DVB-C/T/T2/ISDB-T 与 DVB-S/S2/S2X（或 ATSC）之间选；单频点最大输入码率 170 Mbps，适合有线与卫星混收的大项目。
+- FBE30X DVB-S/S2 调谐转 IP 网关：8 路 DVB-S/S2 调谐输入直接转 IP 网关输出，配置简单，适合只需要把卫星信号整包搬进 IP 网络的项目。
+
+### HDMI 编码器
+
+- FBE308 / FBE316 / FBE324 HDMI 编码器（8 / 16 / 24 路）：8/16/24 路 HDMI 进、对应路数 SPTS 出，H.264 编码，单路码率 1–13 Mbps 可调。B 帧关闭、低延时，适合直播与自办频道。
+- FBE208 / FBE216 / FBE232 / FBE240 HDMI 编码器（8–48 路，模块化）：同一台机器按编码板扩容，每板 8 路 HDMI、8 路 SPTS，最大 48 路。适合频道数量多、需要一次到位或分期扩容的项目。
+
+### 客房机顶盒
+
+- FBE013 智慧酒店机顶盒：安卓 10 系统、4K 输出、双频 WiFi + 网口，配蓝牙/红外双模遥控器。酒店模式可锁定频道表与首页，客人不会把电视调乱。
+- FBE010 Max M1 高清机顶盒：安卓 9、2GB + 8GB、HDMI 与 AV 双输出，带光口 SPDIF。预算型项目或老电视（AV 口）多的楼栋用它更省。
+
+### 卫星天线与射频配件
+
+- 1.2 / 1.8 / 2.4 / 3.0 / 3.7 m 精密卫星接收天线（C / Ku 双频段）：口径决定增益与波宽：1.2 m 适合 Ku 单星，2.4 m 以上适合 C 波段多节目接收。C 波段中心增益从 32.5 dB（1.2 m）到 41.2 dB（3.7 m）。
+- 5150R C 波段 PLL 高频头（Norsat）：C 波段本振锁相（PLL）高频头，增益 60 dB 典型值，防水输入输出，F 头 75 Ω 或 N 头 50 Ω 可选。
+- BPF-C C 波段带通滤波器（Norsat）：滤掉 C 波段的 WiMAX、雷达等地面干扰，装在高频头与接收机之间。城市屋顶或靠近基站的天线位尤其需要。
+
+### 传输与交换
+
+- 24GE4SFP-400W 24 口千兆管理型 PoE+ 交换机（400W）：24 个千兆 PoE+ 口 + 4 个 SFP 上联，400W 供电预算，单口最高 35W。客房机顶盒、AP、IP 电话、摄像头走同一台交换机。
+- S5120V3-28P-LI 24 口千兆非 PoE 交换机：24 个千兆电口 + 4 个 SFP，1U 机架式。机房侧接服务器和汇聚上联用，不需要 PoE 时成本更低。
+- H3C S5024PV6-EI-HPWR H3C 24 口千兆 PoE+ 管理型交换机：H3C 主流接入交换机，24 口全千兆 PoE+，支持 IRF2 堆叠、AI PoE 与集中网管。酒店、学校、政府办公楼常用机型。
+- FT-1S1U 光纤收发器：前端在 A 栋、客房在 B 栋时，用光纤收发器把 IPTV 链路延伸过去，避免超长网线带来的丢包。
+
+### 软件与授权
+
+- FMUSER IPTV System FMUSER IPTV 业务系统与授权：基于 CAT5 网线传输的 IPTV 业务系统，装在前端服务器上，客房端用 FMUSER 机顶盒或安卓电视装 APK 播放。功能含直播、点播、酒店介绍、餐饮、服务、景点、APPS 与界面自定义。
+
+共 23 个型号页（部分同系列型号合并在一页对比）。
+
+## 事实边界
+
+- 本站参数全部来自官方数据表；数据表未列的参数不写。
+- 不使用“全球通用”“无限路数”等绝对化表述；路数与并发按项目实测与官方标称给出。
+- 案例均为已交付的海外项目，客户名称按保密要求省略。
